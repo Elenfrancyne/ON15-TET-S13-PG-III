@@ -1,4 +1,4 @@
 const app = require('./src/app');
-const PORT = 3000;
+const PORT = 9000;
 
-app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
+app.listen(PORT, () => console.log(`Porta aberta, rodando feliz na porta ${PORT}`));;
